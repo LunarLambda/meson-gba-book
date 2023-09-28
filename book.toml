@@ -1,0 +1,13 @@
+[book]
+authors = ["LunarLambda"]
+language = "en"
+multilingual = false
+title = "Meson for GBA"
+
+[build]
+build-dir = "build"
+
+[output.html]
+preferred-dark-theme = "ayu"
+
+[preprocessor.external-links]
