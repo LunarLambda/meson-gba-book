@@ -32,7 +32,7 @@ Finally, you can configure some project settings in `meson.build`, although this
 Set up your build directory:
 
 ```sh
-meson setup --cross-file=gba.ini build
+meson setup --cross-file=meson/gba.ini build
 ```
 
 If everything goes well, you should see something like this at the end:
