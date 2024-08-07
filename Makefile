@@ -3,7 +3,7 @@
 deploy:
 	git worktree add /tmp/book gh-pages
 	mdbook build
-	rm -rf /tmp/book/* /tmp/book/.*
+	rm -rf /tmp/book/* /tmp/book/.git?*
 	cp -rp build/* /tmp/book
 	cd /tmp/book && \
 	git update-ref -d refs/heads/gh-pages && \
